@@ -1,0 +1,229 @@
+@font-face {
+  font-family: font-1;
+  src: url(./NotoSans-Italic.ttf);
+}
+@font-face {
+  font-family: font-2;
+  src: url(./Joan-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(46, 248, 147, 0.952);
+  font-family: font-1;
+  overflow-x: hidden;
+  justify-content: justify;
+}
+/***************** partie header ***************/
+header {
+  position: fixed;
+  background: rgba(46, 241, 248, 0.89);
+  width: 100%;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: azure;
+  font-family: font-1, sans-serif;
+}
+a::after {
+  text-decoration: none;
+}
+/* ****************************fin du header *************/
+/* *************partie representation***************** */
+.affiche {
+  background: url(./images/1.jpg) no-repeat 50% 50% / cover;
+  height: 100vh;
+  border-radius: 20px;
+}
+/* ********************fin represention************** */
+/************** debut de la partie global************* */
+.global {
+  width: 100%;
+  height: 280px;
+  margin: 5px;
+  padding: 5px;
+}
+/************** debut de la partie gauche************* */
+.left {
+  float: left;
+  width: 30%;
+  background: rgb(174, 244, 246);
+  margin: 5px;
+  border-radius: 5px;
+  text-shadow: -3px -4px 5px black;
+  padding: 5px;
+  color: blanchedalmond;
+}
+/************** fin de la partie gauche************* */
+/************** debut de la partie droite************* */
+.right {
+  font-family: font-1;
+  display: flex;
+  margin: 5px;
+
+  border-radius: 5px;
+  text-shadow: -3px -4px 5px black;
+  padding: 10px;
+  color: blanchedalmond;
+}
+.photos {
+  width: 344px;
+  height: 240px;
+  background: rgba(130, 238, 144, 0.89);
+  margin: 5px;
+  padding: 8px;
+  margin-top: -6px;
+  margin-left: -2px;
+  border-radius: 5px;
+}
+.photo1 {
+  border-radius: 5px;
+  width: 190px;
+  height: 30%;
+  background: url(./images/3.jpg) no-repeat 50% 50% / cover;
+}
+.photo2 {
+  border-radius: 5px;
+  width: 190px;
+  height: 30%;
+  background: url(./images/4.jpg) no-repeat 50% 50% / cover;
+}
+.photo3 {
+  border-radius: 5px;
+  width: 190px;
+  height: 30%;
+  background: url(./images/5.jpg) no-repeat 50% 50% / cover;
+}
+.photo4 {
+  border-radius: 5px;
+  width: 190px;
+  height: 30%;
+  background: url(./images/8.jpg) no-repeat 50% 50% / cover;
+}
+/************** fin de la partie droite************* */
+/************** fin de la partie global************* */
+/************** debut de la partie service************* */
+.service {
+  display: flex;
+  width: 1490px;
+  margin: 5px;
+}
+.servi {
+  width: 21%;
+  height: 100px;
+  background-color: rosybrown;
+  margin: 8px;
+  padding-top: -11px;
+  border-radius: 8px;
+}
+#ser1 {
+  background: url(./images/2.jpg) no-repeat 50% 50% / cover;
+  padding: 10px;
+}
+#ser2 {
+  background: url(./images/9.jpg) no-repeat 50% 50% / cover;
+  padding: 10px;
+}
+#ser3 {
+  background: url(./images/6.jpg) no-repeat 50% 50% / cover;
+  padding: 10px;
+}
+#ser4 {
+  background: url(./images/4.jpg) no-repeat 50% 50% / cover;
+  padding: 10px;
+}
+.para5 {
+  background: olivedrab;
+  color: bisque;
+  border-radius: 2px;
+  margin-top: 90px;
+  text-align: center;
+  margin-left: -2px;
+}
+/************** fin de la partie service************* */
+/************** debut de la partie nourriture************* */
+.nourriture {
+  display: flex;
+  width: 1490px;
+  margin: 5px;
+}
+.nour {
+  width: 21%;
+  height: 100px;
+  background-color: rosybrown;
+  margin: 8px;
+  padding-top: -11px;
+  border-radius: 8px;
+}
+#nou1 {
+  background: url(./images/3.jpg) no-repeat 50% 50% / cover;
+  padding: 10px;
+}
+#nou2 {
+  background: url(./images/5.jpg) no-repeat 50% 50% / cover;
+  padding: 10px;
+}
+#nou3 {
+  background: url(./images/6.jpg) no-repeat 50% 50% / cover;
+  padding: 10px;
+}
+#nou4 {
+  background: url(./images/5.jpg) no-repeat 50% 50% / cover;
+  padding: 10px;
+}
+.para6 {
+  background: olivedrab;
+  color: bisque;
+  border-radius: 2px;
+  margin-top: 90px;
+  text-align: center;
+  margin-left: -2px;
+}
+/************** fin de la partie nourriture************* */
+/************** debut de la partie footer************* */
+.inpt1 {
+  margin-left: 40%;
+  border: 1px solid rgba(83, 236, 241, 0.972);
+  border-radius: 8px;
+  width: 250px;
+  height: 20px;
+}
+.sub {
+  margin-left: -6px;
+  border: 1px solid rgba(83, 236, 241, 0.972);
+  border-radius: 8px;
+  width: 120px;
+  height: 20px;
+}
+.ligne {
+  background: rgba(229, 255, 0, 0.89);
+  width: 80%;
+  height: 2px;
+  margin-left: 120px;
+  margin-top: 5px;
+}
+.apropos {
+  margin-left: 80%;
+  margin-top: 8px;
+}
+.apropos a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.apropos a::after {
+  text-decoration: none;
+}
+.apropos a .ap {
+  margin-right: 100px;
+}
+.apropos a .fab {
+  font-size: 2rem;
+}
+/***************** fin de la partie footer*****************/
